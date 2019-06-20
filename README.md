@@ -1,9 +1,5 @@
 # Ionic realtime chatbot with Pusher 
 
-Demostrating how to build a chatbot application using Pusher and Dialogflow.
-<br>
-Follow the tutorial on [Pusher](https://pusher.com/tutorials/chatbot-ionic-dialogflow) 
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -17,7 +13,11 @@ What things you need to install the software and how to install them
 * `npm install` to install all our node dependencies
 
 ## Running the server
-
+* Clone this repository
+* Run npm install
+* Run npm install express body-parser cors pusher dotenv shortid
+* Update the .env file with your keys from pusher service
+* Update DIALOGFLOW_ACCESS_TOKEN with your client_access_token from Dialogflow 
 * Update the `pusher-service` provider with your pusher `APP_KEY`
 * run `ionic serve` to serve the app on the browser
 * run `node server.js` to start our server and update the keys in the .env file.
